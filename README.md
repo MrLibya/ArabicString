@@ -6,6 +6,12 @@
 
 ## أمثله
 ```
+#include <iostream>
+#include "arabicstring.h"
+using namespace std;
+
+int main()
+{
 	ArabicString::goArabic();// to set arabic out/in console
 
 	ArabicString test = L"اتز هيما ساما"; // تهيئه متغير سترينغ عربي
@@ -26,5 +32,21 @@
 	test3 = str;
 	test3.makeShape();
 	wcout << test3.getReShape() << endl;
+	
+	return 0;
+}
+
 ```
   
+## الدوال
+```
+ArabicString::goArabic(); استدعائها في بدايه البرنامج لتهيئة الكونسل للغه العربيه
+makeShape() لتقوم بعمل شكل النص المدخل
+getTextLength() ارجاع طول النص الاصلي
+getShapeLength() ارجاع طول الشكل
+getText() ارجاع قيمه النص
+getShape() ارجاع شكل النص
+getReShape() ارجاع شكل النص بالمعكوس ( السبب من استعمال العكسي لانه الكونسل من يسار لليمين ف يجب استدعاء الشكل العكسي )
+```
+## كلمه اخيره
+ماب اللغه العربيه ماخوذ من سورس كود ماتين2
