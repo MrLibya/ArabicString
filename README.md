@@ -5,7 +5,7 @@
 قم بإضافة الملفين للمشروع الخاص بك ققط
 
 ## أمثله
-``
+```
 	ArabicString::goArabic();// to set arabic out/in console
 
 	ArabicString test = L"اتز هيما ساما"; // تهيئه متغير سترينغ عربي
