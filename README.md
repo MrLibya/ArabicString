@@ -59,7 +59,7 @@ To init string with arabic characters for in/out.
 
 ## HOW-TO
 Just add the files to ur project.
-encoding of the file must be : UTF-8-BOM
+encode of the file must be : UTF-8-BOM
 
 ## Functions
 ```
