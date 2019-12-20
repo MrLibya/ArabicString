@@ -50,3 +50,22 @@ getReShape() ارجاع شكل النص بالمعكوس ( السبب من اس�
 ```
 ## كلمه اخيره
 ماب اللغه العربيه ماخوذ من سورس كود ماتين2
+
+# English
+To init string with arabic characters for in/out.
+
+## HOW-TO
+Just add the files to ur project.
+
+## Functions
+```
+ArabicString::goArabic(); To init the arabic in/out for the console
+makeShape() To make the shpae of the text in arabic
+getTextLength() Length of the text
+getShapeLength() Length of the shape text
+getText() Get the text
+getShape() Get the shape text
+getReShape() Get the shape text in reverse order cuz the console in ltr mode
+```
+## Last word
+Arabic characters map taken from metin2 source cdoe
