@@ -1,3 +1,5 @@
+![result](https://i.ibb.co/bPZxTTf/Screenshot-1.png)
+
 # ArabicString
 لتعريف وطباعه وادخال متغيرات بلغه العربيه ف الكونسل
 
