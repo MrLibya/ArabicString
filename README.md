@@ -5,6 +5,7 @@
 
 ## كيفية التركيب
 قم بإضافة الملفين للمشروع الخاص بك ققط
+ويجب عليك وضع الترميز : UTF-8-BOM
 
 ## أمثله
 ```
@@ -16,7 +17,7 @@ int main()
 {
 	ArabicString::goArabic();// to set arabic out/in console
 
-	ArabicString test = L"اتز هيما ساما"; // تهيئه متغير سترينغ عربي
+	ArabicString test = L"اتز هيما ساما";
 	test.makeShape(); // لصنع شكل نص المتغير
 	wcout << test.getText() << endl; // ارجاع النص
 	wcout << test.getShape() << endl; // ارجاع شكل النص
@@ -58,6 +59,7 @@ To init string with arabic characters for in/out.
 
 ## HOW-TO
 Just add the files to ur project.
+encoding of the file must be : UTF-8-BOM
 
 ## Functions
 ```
