@@ -1,5 +1,7 @@
 ![result](https://i.ibb.co/bPZxTTf/Screenshot-1.png)
 
+Arabic MAP : https://en.wikipedia.org/wiki/Arabic_script_in_Unicode
+
 # ArabicString
 لتعريف وطباعه وادخال متغيرات بلغه العربيه ف الكونسل
 
